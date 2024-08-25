@@ -2,7 +2,7 @@ async function submitData() {
     const input = document.getElementById('jsonInput').value;
     try {
         const data = JSON.parse(input);
-        const response = await fetch('https://fullstack-challenge-bajaj.vercel.app/bfhl', {
+        const response = await fetch('https://bajaj-4dg2.vercel.app//bfhl', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
